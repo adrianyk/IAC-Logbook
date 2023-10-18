@@ -13,3 +13,10 @@ Running the commands make tb_verilator and make tb_toolchain in the terminal jus
 The command make tb_verilator just converts the test file mod_test.sv under the rtl folder in the workspace from a system verilog file into a c++ file so that we can run it.
 ### Keeping Logbook on Git
 What this basically means is I write my Logbook on Obsidian and format it using Markdown language, then I save all my logbook files in my local git repository (in my laptop). Then I open the command prompt inside my local git repo by typing "cmd" in the file path, and use git commands to push these logbook files (or changes to these files) to my remote git repository (on GitHub) by using git commands in the command prompt. The git software basically just let's me keep track of the different versions or "checkpoints" of the file and the edits I make and allows me to push and pull changes between my local (laptop) and remote (GitHub) repo.  
+
+## Forking and Cloning
+**_Forking_** creates your own copy of a repository in a remote location (for example, GitHub). Your own copy means that you will be able to contribute changes to your copy of the repository without affecting the original repository.
+
+**_Cloning_** makes a local copy of a repository, not your own copy. Think of it as downloading a repository onto your local hard drive. Unlike forks, clones have references to their original repositories.
+
+For more information check out this article: [What is the difference between forking and cloning in Git? (educative.io)](https://www.educative.io/answers/what-is-the-difference-between-forking-and-cloning-in-git))]. 
